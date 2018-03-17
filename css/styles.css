@@ -142,8 +142,8 @@ Responsive profile image
 a.white-text:hover {
 	border-bottom: 1px solid white !important;
 }
-a.red-text:hover {
-	border-bottom: 1px solid red !important;
+a.deepskyblue-text:hover {
+	border-bottom: 1px solid deepskyblue !important;
 }
 
 .f-large{
@@ -151,22 +151,22 @@ a.red-text:hover {
 }
 
 .b_top{
-	border-top: 3px solid red;
+	border-top: 3px solid deepskyblue;
 }
 
 a{
 	cursor: pointer !important;
 }
 
-.collection-item.red-text.active{
-	background-color: red !important;
+.collection-item.deepskyblue-text.active{
+	background-color: deepskyblue !important;
 	color: white !important;
 }
 
 #service_dash, #service_disp{
-	border-left: 1px solid red;
-	border-right: 1px solid red;
-	border-right: 1px solid red;
+	border-left: 1px solid deepskyblue;
+	border-right: 1px solid deepskyblue;
+	border-right: 1px solid deepskyblue;
 }
 
 /* Sets up our marquee, and inner content */
@@ -175,7 +175,7 @@ a{
 	position: relative;
 	padding-left: 100%;
 	/* Some browsers may require -webkit-animation */
-	animation: reduce 20s linear infinite;
+	animation: deepskyblueuce 20s linear infinite;
 }
 
 .marquee__inner {
@@ -199,7 +199,7 @@ a{
 	transform: rotate(180deg);
 }
 
-@keyframes reduce {
+@keyframes deepskyblueuce {
 	to {
 		padding-left: 0;
 	}

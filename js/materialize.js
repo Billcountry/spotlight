@@ -6164,16 +6164,16 @@ if (Vel) {
   };
 
   $(document).ready(function () {
-    // Hardcoded .staggered-list scrollFire
+    // Hardcoded .staggeblue-list scrollFire
     // var staggeredListOptions = [];
-    // $('ul.staggered-list').each(function (i) {
+    // $('ul.staggeblue-list').each(function (i) {
 
     //   var label = 'scrollFire-' + i;
     //   $(this).addClass(label);
     //   staggeredListOptions.push(
-    //     {selector: 'ul.staggered-list.' + label,
+    //     {selector: 'ul.staggeblue-list.' + label,
     //      offset: 200,
-    //      callback: 'showStaggeredList("ul.staggered-list.' + label + '")'});
+    //      callback: 'showStaggeredList("ul.staggeblue-list.' + label + '")'});
     // });
     // scrollFire(staggeredListOptions);
 
@@ -6246,11 +6246,11 @@ if (Vel) {
 
     // time = 0
     // // Vertical Staggered list
-    // $('ul.staggered-list.vertical li').velocity(
+    // $('ul.staggeblue-list.vertical li').velocity(
     //     { translateY: "100px"},
     //     { duration: 0 });
 
-    // $('ul.staggered-list.vertical li').each(function() {
+    // $('ul.staggeblue-list.vertical li').each(function() {
     //   $(this).velocity(
     //     { opacity: "1", translateY: "0"},
     //     { duration: 800, delay: time, easing: [60, 25] });
